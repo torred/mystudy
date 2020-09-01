@@ -6,7 +6,7 @@ int main()
     int b = 0;
     int c = a + b;
 
-    printf("a + b = %d\n", c);
+    printf("a + b = %d\n", c);   //for vscode debug
     printf("Hello World!\n");
     return 0;
 }
