@@ -18,7 +18,7 @@
         printf("%d : %d\n", a, a);  \
     } while (0);    \
 
-#define TYPE1(type,name) type name_##type##_name;
-#define TYPE2(type,name) type name##_##type##_name;
+#define TYPE1(type,name) type name_##type##_type;
+#define TYPE2(type,name) type name##_##type##_type;
 
 #define ERROR_LOG(module) fprintf(stderr, "error : "#module"\n")
